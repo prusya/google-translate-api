@@ -9,6 +9,7 @@
 var langs = {
     'auto': 'Automatic',
     'af': 'Afrikaans',
+    'am': 'Amharic',
     'sq': 'Albanian',
     'ar': 'Arabic',
     'hy': 'Armenian',
@@ -148,5 +149,6 @@ function isSupported(desiredLang) {
 }
 
 module.exports = langs;
+module.exports.languages = langs;
 module.exports.isSupported = isSupported;
 module.exports.getCode = getCode;
